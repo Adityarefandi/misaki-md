@@ -236,8 +236,8 @@ module.exports = async(conn, msg, m, setting, store, welcome) => {
 		    { urlButton: { displayText: `Youtube`, url : `${setting.youtubeOwner}` } },
 		    { urlButton: { displayText: `Website`, url : `${setting.web}` } },
 			{ callButton: { displayText: `Contact Me`, phoneNumber: `${setting.ownerNumber}` } },
-			{ quickReplyButton: { displayText: `🧑 Owner`, id: `${prefix}owner` } },
-			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } }
+			{ quickReplyButton: { displayText: `『𝗼𝘄𝗻𝗲𝗿』`, id: `${prefix}owner` } },
+			{ quickReplyButton: { displayText: `『𝗗𝗼𝗻𝗮𝘀𝗶』`, id: `${prefix}donate` } }
 		]
 		const buttonsMenu = [
 		    { urlButton: { displayText: `Youtube`, url : `${setting.youtubeOwner}` } },
@@ -395,7 +395,7 @@ module.exports = async(conn, msg, m, setting, store, welcome) => {
 var teks = `──「 𝔻𝕠𝕟𝕒𝕤𝕚 𝔹𝕠𝕥 」──
 
 Hi ${pushname} 👋🏻
-𝗗𝗮𝗻𝗮 : 𝙎𝙘𝙖𝙣 𝙌𝙧𝙞𝙨 𝙙𝙞 𝘼𝙩𝙖𝙨
+𝗗𝗮𝗻𝗮 : 𝙢𝙖𝙡𝙚𝙨 𝙞𝙣𝙨𝙩𝙖𝙡𝙡
 𝗣𝘂𝗹𝘀𝗮 : +62895638102488
 
 𝙏𝙚𝙧𝙞𝙢𝙖𝙠𝙖𝙨𝙞𝙝 𝘽𝙪𝙖𝙩 𝙆𝙖𝙢𝙪 𝙔𝙖𝙣𝙜 𝙎𝙪𝙙𝙖𝙝 𝙈𝙖𝙪 𝘿𝙤𝙣𝙖𝙨𝙞 𝙐𝙣𝙩𝙪𝙠 𝙋𝙚𝙧𝙠𝙚𝙢𝙗𝙖𝙣𝙜𝙖𝙣 𝘽𝙤𝙩 𝙄𝙣𝙞
@@ -412,18 +412,17 @@ Haii, aku adalah *${setting.botName}*, Yang bisa membantu anda untuk membuat sti
 父 *Nama Bot :* ${setting.botName}
 父 *Name Owner :* ${setting.ownerName}
 父 *Nomor Owner :* wa.me/${setting.ownerNumber}
-父 *Engine :* NodeJs
+父 *Engine :* Node.Js
 父 *Status :* Aktif
 父 *Aktif Selama :* ${runtime(process.uptime())}
 父 *Auto Download :* Aktif
 
 ===================
 Thanks To
-- Ifran / Rtwone
-- Christian ID
-- Tsuyuzakiメ
-- Penyedia Rest Api
-- Istri Anime`
+- 𝚐𝚒𝚝𝚑𝚞𝚋
+- 𝚙𝚎𝚗𝚢𝚎𝚍𝚒𝚊 𝚖𝚘𝚍𝚞𝚕
+- 𝚑𝚎𝚛𝚘𝚔𝚞.𝚌𝚘𝚖
+`
 
 conn.sendMessage(from, { caption: caption, image: pp_bot }, {quoted: fdoc})
 break
@@ -707,7 +706,7 @@ limitAdd(sender, limit)
 			      limitAdd(sender, limit)
 				}).catch(() => reply(mess.error.api))
 			    break
-//━─━─━─━─━─━─━─━─━─━─━─━─━─⟤ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 ⟥─━─━─━─━─━─━─━─━─━─━─━─━
+//🎀 ×º°”`˜”°º× 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 ×º°”˜`”°º× 🎀
 			case prefix+'exif':
 			    if (!isOwner) return reply(mess.OnlyOwner)
 			    var namaPack = q.split('|')[0] ? q.split('|')[0] : q
